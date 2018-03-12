@@ -1,10 +1,5 @@
 # Minsx-Center-Server
-
-#### Minsx (米斯艾克斯)
-+ Min : 轻量 
-+ S : Spring框架 
-+ X : 未知、无限、完美、千言万语 (参考自百度百科)
-#### 是一款基于Spring的轻量级云平台框架，她可以让你以较短的时间开发出企业级云平台应用
+#### 是Minsx-Cloud家庭成员的一部分,也是最核心的中心服务端,主要用于提供对基础的用户,应用,权限等模块的支持
 
 ### 项目说明
 + 软件名称：Minsx-Center-Server
@@ -34,23 +29,10 @@
 + 采用Nginx 主要用于解决代理问题及部分简单负载均衡问题
 + 采用Docker 主要用于解决环境隔离,单服务器多应用问题
 
-
 ### 架构及开发方面
 + 项目采用前后端分离/模块化设计
 + 提供单点登录服务端(请参照：minsx-authorization-server [点此查看](https://github.com/MinsxCloud/minsx-authorization-server))
-+ 提供用户中心及核心业务服务端(请参照：minsx-center-server)
 + 提供默认通用用户前端(请参照：minsx-user-ui)
 + 提供默认通用管理前端(请参照：minsx-management-ui)
 + 采用Restful-URL进行开发
 + 代码规范遵循最新阿里巴巴JAVA代码规范
-
-### 项目截图 (V1.0.0版本)
-![登录](https://raw.githubusercontent.com/MinsxCloud/minsx-framework/master/docs/image/login.png "登录")
-![权限管理](https://raw.githubusercontent.com/MinsxCloud/minsx-framework/master/docs/image/auth.png "权限管理")
-![菜单管理](https://raw.githubusercontent.com/MinsxCloud/minsx-framework/master/docs/image/menu.png "菜单管理")
-![请求监控](https://raw.githubusercontent.com/MinsxCloud/minsx-framework/master/docs/image/request.png "请求监控")
-
-### 项目截图 (V2.0.0版本)
-![后台管理](https://raw.githubusercontent.com/MinsxCloud/minsx-framework/master/docs/image2.0/admin.png "后台管理")
-![后台管理](https://raw.githubusercontent.com/MinsxCloud/minsx-framework/master/docs/image2.0/admin2.png "后台管理")
-正在加紧Coding...(预计在5月底开放,敬请期待)
